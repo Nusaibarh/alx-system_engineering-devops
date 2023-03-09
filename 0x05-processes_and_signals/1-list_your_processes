@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#print all process ids in my formag
+
+ps -auxf

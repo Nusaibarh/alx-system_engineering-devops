@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#stop the damn shit
+
+kill "$(ps -x | pgrep -f beyond)" 
