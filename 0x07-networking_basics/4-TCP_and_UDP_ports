@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-# displays listening sockets with the PID and name of the program to which each socket belongs
-netstat -lp
+#This script prints all listening networks internet and servers
+
+sudo netstat -ltup
+sudo netstat -lxp
